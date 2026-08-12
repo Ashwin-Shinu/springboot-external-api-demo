@@ -11,6 +11,9 @@ public class HelloController {
         return "API is working";
     }
 
-    @GetMapping("/welcome")
-    public String welcome() {return "Welcome User";}
+    @GetMapping("/greeting")
+    public String greeting() {
+        return "Good Morning!";
+    }
+    }
 }
