@@ -10,4 +10,7 @@ public class HelloController {
     public String test() {
         return "API is working";
     }
+
+    @GetMapping("/welcome")
+    public String welcome() {return "Welcome User";}
 }
