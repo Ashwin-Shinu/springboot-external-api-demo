@@ -15,5 +15,4 @@ public class HelloController {
     public String greeting() {
         return "Good Morning!";
     }
-    }
 }
