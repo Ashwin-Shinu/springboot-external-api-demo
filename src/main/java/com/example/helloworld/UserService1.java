@@ -10,7 +10,7 @@ public class UserService1 {
     public UserService1(UserRepository1 userRepository) {
         this.userRepository1 = userRepository;
     }
-    git add .
+
     public User1 getUser() {
         return userRepository1.getUser1();
     }
