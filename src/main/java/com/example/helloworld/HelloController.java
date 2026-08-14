@@ -15,5 +15,7 @@ public class HelloController {
     public String greeting() {
         return "Good Morning!";
     }
-    }
+    @GetMapping("/date")
+    public String getDate() {
+        return "Today's date is: " + java.time.LocalDate.now();
 }
